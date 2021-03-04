@@ -1,0 +1,301 @@
+body {
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
+	height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	max-width: 1080px;
+	margin: 0 auto;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	color: #383838;
+}
+a {
+  text-decoration: none;
+}
+.container {
+    height: 540px;
+    width: 60%;
+    border: 1px solid #BCBCBC;
+    border-radius: 35px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+.arrow_back {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    color: black;
+}
+.arrow_back:hover {
+  color: black;
+}
+.userpage_inf {
+  border: none;
+  background-color: transparent;
+  margin-bottom: 26%;
+}
+.con_sinup {
+  height: 63%;
+}
+.con_check {
+  height: 82%;
+    border: none;
+    border-radius: unset;
+    background-color: transparent;
+}
+.box {
+	height: 80%;
+    width: 83%;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+}
+.result_login {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+form >p {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+form >p >span {
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.6;
+    font-family: system-ui;
+    margin-left: 20px;
+    color: red;
+}
+form >input[type=text],
+     input[type=email],
+	   input[type=password] {
+    width: 98%;
+    height: 45px;
+    border-radius: 14px;
+    font-size: 95%;
+    border: 3px solid #BCBCBC;
+}
+input[type=text],
+input[type=email],
+input[type=password] {
+		background-color: white;
+	   }
+input:focus {
+	    outline: none;
+}
+input[type=password] {
+	margin-bottom :75px;
+}
+.dummy {
+  display: none;
+}
+.button_left {
+	font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    border: none;
+}
+
+.button_left {
+  color: white;
+  background-color: #418CBC;
+  border-bottom: 5px solid #1d4158;
+  text-decoration: none;
+}
+
+.button_left:hover {
+  margin-top: 3px;
+  color: white;
+  background: #418CBC;
+  border-bottom: 1px solid #418CBC;
+}
+.box_sinup {
+	position: absolute;
+    bottom: 32%;
+    right: 35%;
+}
+.button_right {
+	font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    border: none;
+}
+
+.button_right {
+  color: white;
+  background-color: #F4C343;
+  border-bottom: 5px solid #735b1b;
+  float: right;
+  text-decoration: none;
+}
+
+.button_right:hover {
+  margin-top: 3px;
+  color: white;
+  background: #F4C343;
+  border-bottom: 1px solid transparent;
+}
+.bt_sinpu {
+  float: right;
+}
+.bt_rignt {
+  float: right;
+}
+.bt_left {
+
+}
+.userpage_bt_right {
+    border-radius: 0;
+}
+.userpage_bt_left {
+    color: white;
+    background-color: #dc0000;
+    border-bottom: 5px solid #670000;
+    border-radius: 0;
+}
+.userpage_bt_left:hover {
+    background-color: #dc0000;
+}
+.check_userpage {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+.top {
+    font-weight: normal;
+    text-align: center;
+    font-size: 38px;
+}
+.user_top {
+    padding: 12px 5px;
+    color: #494949;
+    background: #f4f4f4;
+    border-left: solid 5px #f4c344;
+    border-bottom: solid 3px #d7d7d7;
+    letter-spacing: 15px;
+}
+.check_form {
+  float: right;
+}
+.label {
+    font-size: 33px;
+    font-weight: 500;
+
+}
+.post {
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding-left: 50px;
+    margin-bottom: 53px;
+}
+.btn {
+
+}
+.userpage_top {
+    position: absolute;
+    top: 0;
+    right: 57px;
+}
+.btn_container {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.inf {
+  color: #383838;
+}
+.inf:before {
+  background: #5cc5de;
+}
+.inf:after {
+  background: #5cc5de;
+}
+.mail {
+  color: #383838;
+}
+.mail:before {
+  background: #13ab35;
+}
+.mail:after {
+  background: #13ab35;
+}
+.userpage {
+    display: inline-block;
+    width: 42%;
+    /* height: 100px; */
+    margin: 0 20px;
+    padding: 2em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    font-size: 34px;
+}
+
+.userpage:hover {
+  background: #67c5ff;
+  color: white;
+}
+
+/*.userpage {
+    display: block;
+    position: relative;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 10px;
+    padding: 25px 0 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-bottom: 20%;
+}
+
+.userpage:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 5px;
+  top:100%;
+  left: 0;
+  border-radius: 3px;
+  transition: .2s;
+}
+
+.userpage:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 5px;
+  top:0;
+  left: 0;
+  border-radius: 3px;
+  transition: .2s;
+}
+
+.userpage:hover:before {
+  top: -webkit-calc(100% - 3px);
+  top: calc(100% - 3px);
+}
+
+.userpage:hover:after {
+  top: 8px;
+}*/
